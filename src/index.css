@@ -1,0 +1,59 @@
+@import 'tailwindcss';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-display: 'Sora', 'Segoe UI', sans-serif;
+  --font-sans: 'Manrope', 'Segoe UI', sans-serif;
+}
+
+:root {
+  color-scheme: light;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: var(--font-sans);
+  background: radial-gradient(circle at top left, #fde68a 0%, transparent 38%),
+    radial-gradient(circle at 90% 12%, #bae6fd 0%, transparent 33%),
+    linear-gradient(135deg, #f8fafc, #f1f5f9 45%, #ecfeff 100%);
+  color: #1e293b;
+}
+
+.dark body {
+  color-scheme: dark;
+  background: radial-gradient(circle at top left, #78350f44 0%, transparent 42%),
+    radial-gradient(circle at 80% 10%, #0f766e33 0%, transparent 40%),
+    linear-gradient(135deg, #020617, #0f172a 55%, #082f49 100%);
+  color: #e2e8f0;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid #f59e0b;
+  outline-offset: 2px;
+}
