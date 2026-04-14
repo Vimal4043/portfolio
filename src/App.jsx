@@ -8,10 +8,10 @@ import ScrollProgress from './components/ScrollProgress'
 import { useActiveSection } from './hooks/useActiveSection'
 import { useTheme } from './hooks/useTheme'
 import About from './sections/About'
-import Achievements from './sections/Achievements'
 import Contact from './sections/Contact'
 import Experience from './sections/Experience'
 import Hero from './sections/Hero'
+import Leadership from './sections/Leadership'
 import Projects from './sections/Projects'
 import Skills from './sections/Skills'
 import { NAV_ITEMS } from './utils/data'
@@ -44,9 +44,9 @@ function App() {
         <Hero />
         <About />
         <Skills />
-        <Projects />
-        <Achievements />
         <Experience />
+        <Projects />
+        <Leadership />
         <Contact />
       </main>
 

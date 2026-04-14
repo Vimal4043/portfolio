@@ -2,9 +2,9 @@ export const NAV_ITEMS = [
   { id: 'hero', label: 'Home' },
   { id: 'about', label: 'About' },
   { id: 'skills', label: 'Skills' },
-  { id: 'projects', label: 'Projects' },
-  { id: 'achievements', label: 'Achievements' },
   { id: 'experience', label: 'Experience' },
+  { id: 'projects', label: 'Projects' },
+  { id: 'leadership', label: 'Leadership' },
   { id: 'contact', label: 'Contact' },
 ]
 
@@ -76,19 +76,47 @@ export const PROJECTS = [
   },
 ]
 
-export const ACHIEVEMENTS = [
-  'Solved 300+ DSA problems on LeetCode with strong consistency.',
-  'Built production-level full-stack applications with clean architecture.',
+export const EXPERIENCE = [
+  {
+    role: 'Business Development Intern',
+    organization: 'Synergy Telecom Pvt. Ltd.',
+    duration: 'June 2025 – July 2025',
+    highlights: [
+      'Conducted market research and competitor analysis to support business growth strategies.',
+      'Prepared structured business reports and performance summaries using Excel.',
+      'Maintained and organized client datasets to track sales activities and metrics.',
+      'Monitored sales trends and assisted in performance tracking through reports.',
+      'Collaborated with cross-functional teams to ensure accurate data communication.',
+    ],
+  },
 ]
 
-export const EXPERIENCE = {
-  role: 'Tech Head',
-  organization: 'Shatranj Society, NSUT',
-  highlights: [
-    'Led 5+ technical initiatives for student development.',
-    'Designed and delivered 10+ hands-on technical sessions.',
-  ],
-}
+export const LEADERSHIP = [
+  {
+    role: 'Tech Head',
+    organization: 'Shatranj Society, NSUT',
+    highlights: [
+      'Led technical initiatives and delivered 5+ sessions to 40+ members.',
+      'Coordinated content planning and team tasks.',
+    ],
+  },
+  {
+    role: 'Event Organizer',
+    organization: 'College Fest Team',
+    highlights: [
+      'Managed event logistics and coordination across teams.',
+      'Handled real-time issue resolution during events.',
+    ],
+  },
+  {
+    role: 'Mentor',
+    organization: 'Desh Ke Mentor',
+    highlights: [
+      'Mentored students and simplified complex concepts.',
+      'Improved student confidence through structured guidance.',
+    ],
+  },
+]
 
 export const CONTACT = {
   email: 'vimalkumar40437@gmail.com',

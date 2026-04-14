@@ -5,7 +5,7 @@ function SkillCard({ group }) {
   return (
     <motion.article
       variants={fadeUp}
-      className="rounded-2xl border border-white/40 bg-white/65 p-6 shadow-[0_12px_40px_rgba(15,23,42,0.08)] backdrop-blur dark:border-white/10 dark:bg-slate-900/60"
+      className="rounded-2xl border border-white/40 bg-white/65 p-6 shadow-[0_12px_40px_rgba(15,23,42,0.08)] backdrop-blur tracking-colors duration-100 hover:border-amber-500 dark:border-white/10 dark:bg-slate-900/60"
     >
       <h3 className="font-display text-xl font-semibold text-slate-900 dark:text-slate-100">
         {group.category}
