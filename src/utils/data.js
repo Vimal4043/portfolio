@@ -65,10 +65,8 @@ export const PROJECTS = [
     features: [
       'Responsive design (mobile-friendly)',
       'Product listing section',
-      'Smooth scrolling navigation bar',
       'Add-to-cart user interface',
       'Interactive buttons and hover effects',
-      'Organized folder structure',
     ],
     tech: ['HTML5', 'CSS3', 'JavaScript'],
     github: 'https://github.com/Vimal4043/Fresh-Grocery-Store',
