@@ -74,20 +74,20 @@ export const PROJECTS = [
     github: 'https://github.com/Vimal4043/Fresh-Grocery-Store',
     demo: 'https://fresh-grocery-store-one.vercel.app/',
   },
-  // {
-  //   title: 'Spotify UI Clone',
-  //   description:
-  //     'A responsive Spotify Web Player UI clone built using HTML5 and CSS3, focusing on pixel-perfect design and modern layout techniques.',
-  //   features: [
-  //     'Responsive layout using Flexbox and CSS Grid',
-  //     'Spotify-inspired UI with sidebar navigation',
-  //     'Album cards with hover effects',
-  //     'Static music player interface',
-  //   ],
-  //   tech: ['HTML5', 'CSS3', 'Flexbox', 'CSS Grid'],
-  //   github: 'https://github.com/Vimal4043/Spotify-Clone',
-  //   demo: '',
-  // }
+  {
+    title: 'Spotify UI Clone',
+    description:
+      'A responsive Spotify Web Player UI clone built using HTML5 and CSS3, focusing on pixel-perfect design and modern layout techniques.',
+    features: [
+      'Responsive layout using Flexbox and CSS Grid',
+      'Spotify-inspired UI with sidebar navigation',
+      'Album cards with hover effects',
+      'Static music player interface',
+    ],
+    tech: ['HTML5', 'CSS3', 'Flexbox', 'CSS Grid'],
+    github: 'https://spotify-clone-one-jet-71.vercel.app/',
+    demo: '',
+  }
 ]
 
 export const EXPERIENCE = [
