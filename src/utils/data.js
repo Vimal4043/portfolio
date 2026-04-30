@@ -35,24 +35,27 @@ export const PROJECTS = [
   {
     title: 'E-commerce Web App',
     description:
-      'A full-stack shopping platform with secure auth flows, cart management, checkout, and robust order lifecycle handling.',
+      'A full-stack e-commerce application built with the MERN stack, featuring user authentication, shopping cart functionality, and order management.',
     features: [
-      'Authentication and protected routes',
-      'Cart and checkout workflow',
-      'Order history and detailed order views',
+      'JWT-based authentication with protected routes',
+      'Dynamic cart and checkout workflow',
+      'Order management with history and detailed tracking',
+      'User address and profile management',
+      'Admin panel for product CRUD operations'
     ],
-    tech: ['MERN', 'JWT', 'Tailwind CSS'],
+    tech: ['MongoDB', 'Express.js', 'React.js', 'Node.js', 'JWT', 'Tailwind CSS'],
     github: 'https://github.com/Vimal4043/E-Commerce-mern',
     demo: 'https://e-commerce-mern-tau-ten.vercel.app/',
   },
   {
     title: 'Finance Dashboard',
     description:
-      'An analytics-heavy dashboard for transaction tracking with animated charts and interaction-focused UI patterns.',
+      'A responsive analytics dashboard for tracking financial data with interactive visualizations and smooth UI animations.',
     features: [
-      'Interactive chart visualizations',
-      'Transaction tracking panels',
-      'Framer Motion-based micro interactions',
+      'Interactive charts using Recharts',
+      'Transaction tracking and data insights panels',
+      'Framer Motion-based micro-interactions',
+      'Responsive and user-friendly dashboard UI'
     ],
     tech: ['React', 'Recharts', 'Framer Motion'],
     github: 'https://github.com/Vimal4043/Finance-Dashboard',
