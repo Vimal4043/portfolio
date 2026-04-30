@@ -92,18 +92,6 @@ export const PROJECTS = [
 
 export const EXPERIENCE = [
   {
-    role: 'Business Development Intern',
-    organization: 'Synergy Telecom Pvt. Ltd.',
-    duration: 'June 2025 - July 2025',
-    highlights: [
-      'Conducted market research and competitor analysis to support business growth strategies.',
-      'Prepared structured business reports and performance summaries using Excel.',
-      'Maintained and organized client datasets to track sales activities and metrics.',
-      'Monitored sales trends and assisted in performance tracking through reports.',
-      'Collaborated with cross-functional teams to ensure accurate data communication.',
-    ],
-  },
-  {
     role: 'Full Stack Trainee',
     organization: 'Agilityhive Research',
     duration: 'April 2026 - present',
@@ -114,6 +102,18 @@ export const EXPERIENCE = [
       'Implemented secure authentication and authorization using JWT',
       'Built and integrated RESTful APIs for efficient data communication between frontend and backend',
       'Optimized application performance and resolved bugs to improve stability'
+    ],
+  },
+  {
+    role: 'Business Development Intern',
+    organization: 'Synergy Telecom Pvt. Ltd.',
+    duration: 'June 2025 - July 2025',
+    highlights: [
+      'Conducted market research and competitor analysis to support business growth strategies.',
+      'Prepared structured business reports and performance summaries using Excel.',
+      'Maintained and organized client datasets to track sales activities and metrics.',
+      'Monitored sales trends and assisted in performance tracking through reports.',
+      'Collaborated with cross-functional teams to ensure accurate data communication.',
     ],
   }
 ]
