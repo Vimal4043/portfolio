@@ -74,13 +74,27 @@ export const PROJECTS = [
     github: 'https://github.com/Vimal4043/Fresh-Grocery-Store',
     demo: 'https://fresh-grocery-store-one.vercel.app/',
   },
+  // {
+  //   title: 'Spotify UI Clone',
+  //   description:
+  //     'A responsive Spotify Web Player UI clone built using HTML5 and CSS3, focusing on pixel-perfect design and modern layout techniques.',
+  //   features: [
+  //     'Responsive layout using Flexbox and CSS Grid',
+  //     'Spotify-inspired UI with sidebar navigation',
+  //     'Album cards with hover effects',
+  //     'Static music player interface',
+  //   ],
+  //   tech: ['HTML5', 'CSS3', 'Flexbox', 'CSS Grid'],
+  //   github: 'https://github.com/Vimal4043/Spotify-Clone',
+  //   demo: '',
+  // }
 ]
 
 export const EXPERIENCE = [
   {
     role: 'Business Development Intern',
     organization: 'Synergy Telecom Pvt. Ltd.',
-    duration: 'June 2025 – July 2025',
+    duration: 'June 2025 - July 2025',
     highlights: [
       'Conducted market research and competitor analysis to support business growth strategies.',
       'Prepared structured business reports and performance summaries using Excel.',
@@ -89,6 +103,19 @@ export const EXPERIENCE = [
       'Collaborated with cross-functional teams to ensure accurate data communication.',
     ],
   },
+  {
+    role: 'Full Stack Trainee',
+    organization: 'Agilityhive Research',
+    duration: 'April 2026 - present',
+    highlights: [
+      'Improved company website UI / UX, enhancing usability and overall user experience',
+      'Developed backend functionality using Node.js and Express.js to support application features',
+      'Designed and built a complete HRIS platform for managing employee data, workflows, and role- based access',
+      'Implemented secure authentication and authorization using JWT',
+      'Built and integrated RESTful APIs for efficient data communication between frontend and backend',
+      'Optimized application performance and resolved bugs to improve stability'
+    ],
+  }
 ]
 
 export const LEADERSHIP = [
