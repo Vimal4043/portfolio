@@ -48,8 +48,8 @@ export const PROJECTS = [
       'Team member management with secure REST APIs'
     ],
     tech: ['MongoDB', 'Express.js', 'React.js', 'Node.js', 'JWT', 'Tailwind CSS'],
-    github: 'YOUR_GITHUB_LINK',
-    demo: 'YOUR_DEMO_LINK',
+    github: 'https://github.com/Vimal4043/Team-Task-Manager',
+    demo: 'https://team-task-manager-green-eta.vercel.app/',
   },
   {
     title: 'E-commerce Web App',
