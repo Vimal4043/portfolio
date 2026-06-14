@@ -20,17 +20,21 @@ function About() {
           viewport={viewportOnce}
         >
           <p className="text-slate-700 dark:text-slate-300">
-            MERN Stack Developer with experience building real-world applications,
-            including a full-stack e-commerce platform with authentication, cart,
-            checkout and complete order workflow.
+            MERN Stack Developer with experience building full-stack applications,
+            secure backend systems, and role-based platforms. Developed enterprise-style
+            HRIS modules during internship and delivered end-to-end projects including a
+            Team Task Manager, E-commerce platform, and interactive dashboards.
           </p>
+
           <div className="space-y-4 text-slate-700 dark:text-slate-300">
             <p>
-              Strong in DSA and problem solving with 300+ LeetCode problems solved
-              across arrays, graphs, DP and system-oriented challenges.
+              Skilled in React.js, Node.js, Express.js, MongoDB, REST API development,
+              authentication, and scalable application architecture.
             </p>
             <p>
-              Education: B.Tech, NSUT (2022-2026)
+              Strong problem-solving abilities demonstrated through 300+ LeetCode
+              problems solved and a B.Tech in Instrumentation & Control Engineering from
+              NSUT (2022-2026).
             </p>
           </div>
         </motion.article>
