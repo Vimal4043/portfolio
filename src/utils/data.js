@@ -11,27 +11,46 @@ export const NAV_ITEMS = [
 export const SKILL_GROUPS = [
   {
     category: 'Languages',
-    skills: ['JavaScript', 'Java', 'Python', 'C'],
-  },
-  {
-    category: 'MERN Stack',
-    skills: ['MongoDB', 'Express', 'React', 'Node'],
+    skills: ['JavaScript', 'Java', 'Python'],
   },
   {
     category: 'Frontend',
-    skills: ['HTML', 'CSS', 'Tailwind CSS'],
+    skills: ['React.js', 'Tailwind CSS', 'HTML5', 'CSS3', 'Framer Motion'],
   },
   {
     category: 'Backend',
-    skills: ['REST APIs', 'JWT Auth'],
+    skills: ['Node.js', 'Express.js', 'REST APIs', 'JWT Authentication', 'RBAC'],
+  },
+  {
+    category: 'Databases',
+    skills: ['MongoDB', 'SQL'],
   },
   {
     category: 'Tools',
     skills: ['Git', 'GitHub', 'VS Code'],
   },
+  {
+    category: 'Core',
+    skills: ['Data Structures & Algorithms', 'OOP', 'API Design'],
+  }
 ]
 
 export const PROJECTS = [
+  {
+    title: 'Team Task Manager',
+    description:
+      'A full-stack MERN application for managing projects, tasks, and team collaboration through secure role-based access control and an intuitive dashboard.',
+    features: [
+      'JWT-based authentication and protected routes',
+      'Role-based access control for Admin and Members',
+      'Project creation, assignment, and management',
+      'Task tracking with todo, in-progress, and done workflows',
+      'Team member management with secure REST APIs'
+    ],
+    tech: ['MongoDB', 'Express.js', 'React.js', 'Node.js', 'JWT', 'Tailwind CSS'],
+    github: 'YOUR_GITHUB_LINK',
+    demo: 'YOUR_DEMO_LINK',
+  },
   {
     title: 'E-commerce Web App',
     description:
@@ -97,13 +116,14 @@ export const EXPERIENCE = [
     organization: 'Agilityhive Research',
     duration: 'April 2026 - present',
     highlights: [
-      'Improved company website UI / UX, enhancing usability and overall user experience',
-      'Developed backend functionality using Node.js and Express.js to support application features',
-      'Designed and built a complete HRIS platform for managing employee data, workflows, and role- based access',
-      'Implemented secure authentication and authorization using JWT',
-      'Built and integrated RESTful APIs for efficient data communication between frontend and backend',
-      'Optimized application performance and resolved bugs to improve stability'
-    ],
+      'Built and enhanced backend functionalities using Node.js and Express.js to support core application features.',
+      'Designed and developed a complete HRIS platform for employee management, workflows, and role-based access control.',
+      'Implemented secure authentication and authorization using JWT and middleware-based access control.',
+      'Developed and integrated RESTful APIs for seamless communication between frontend and backend systems.',
+      'Designed and developed an Intercept Management module with landing pages, respondent tracking, and status-based callback URLs for survey workflows.',
+      'Redesigned frontend interfaces using React.js and Tailwind CSS with reusable and responsive UI components.',
+      'Optimized application performance and resolved bugs to improve system stability and user experience.'
+    ]
   },
   {
     role: 'Business Development Intern',
