@@ -2,7 +2,12 @@ import { motion } from 'framer-motion'
 import { useEffect, useMemo, useState } from 'react'
 
 function Hero() {
-  const words = useMemo(() => ['MERN Stack Developer', 'Problem Solver', 'Clean UI Enthusiast'], [])
+  const words = useMemo(() => [
+    'Full-Stack Developer',
+    'REST API Developer',
+    'Problem Solver',
+    'MERN Stack Engineer'
+  ], [])
   const [wordIndex, setWordIndex] = useState(0)
   const [typedText, setTypedText] = useState('')
   const [deleting, setDeleting] = useState(false)
